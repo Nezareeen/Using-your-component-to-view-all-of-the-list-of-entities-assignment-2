@@ -1,0 +1,35 @@
+.postcard {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    padding: 15px;
+    width: 400px; /* Adjust as needed */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  }
+  
+  .postcard-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .profile-image {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+    object-fit: cover;
+  }
+  
+  .username {
+    font-weight: bold;
+  }
+  
+  .content {
+    margin-bottom: 10px;
+  }
+  
+  .postcard-actions {
+    display: flex;
+    align-items: center;
+  }

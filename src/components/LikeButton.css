@@ -1,0 +1,21 @@
+.like-button {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .like-button:hover {
+    opacity: 0.8;
+  }
+  
+  .like-button.liked {
+    background-color: #ff69b4; /* Example liked color (hot pink) */
+    color: white;
+  }
+  
+  .like-button.liked:hover {
+    background-color: #e059a1;
+  }
